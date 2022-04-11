@@ -1,0 +1,49 @@
+.email-body-wrapper{
+    background-color: white;
+    border: 2px solid #CFD2DC;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 24px 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-div:first-child{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.fav-button{
+    border: 2px solid #E54065;
+    background-color: #E54065;
+    border-radius: 9999px;
+    padding: 6px 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.fav-button:hover {
+    background-color: transparent;
+    border: 2px solid #E54065;
+    color: black;
+}
+
+.email-body-date-time{
+    display: flex;
+    margin: 6px auto;
+}
+
+.email-body{
+    margin: 3rem auto;
+}

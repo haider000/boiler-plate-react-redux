@@ -1,0 +1,58 @@
+.card-wrapper{
+    border: 2px solid #CFD2DC;
+    border-radius: 4px;
+    padding: 8px 4px;
+    margin: 24px 4px;
+    cursor: pointer;
+}
+
+.read-bg{
+    background-color: #f2f2f2;
+}
+
+.unread-bg{
+    background-color: white;
+}
+
+.active-border{
+    border: 2px solid #E54065;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 8px 4px;
+}
+
+.email-details{
+    padding: 0 12px;
+}
+
+.email-details>div>span{
+    font-weight: 600;
+}
+
+.email-details-body{
+    margin: 12px 0;
+}
+
+
+
+.email-time{
+    margin: 0 4px;
+}
+
+.email-tags{
+    margin: 0 0 0 18px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:#E54065
+}
+
+.email-date-time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
